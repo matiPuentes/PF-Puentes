@@ -1,0 +1,44 @@
+.GridNos{  
+    @media (max-width:768px){
+    .GridBody{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        min-height: 100vh;}
+    a{
+        font-size: 20px;
+        }
+    h1{
+        font-size: 40px;
+        }
+    .Encabezado{
+        display: flex;
+        flex-direction: inherit;
+        align-items: baseline;
+        border-radius: 20px;
+        padding: auto;
+        }
+    .Pie{
+        display: flex;
+        border-radius: 20px;
+        margin-top: auto;
+        color: whitesmoke;
+        }
+    .Encabezado__NavI--Flex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px;
+        margin: 1px;
+        }
+    .MainNos__ImgTxt1--Img{
+        width: 100%;
+        height: auto;
+        }
+    .MainNos__ImgTxt2--Img{
+        width: 100%;
+        height: auto;
+        }
+    }  
+}

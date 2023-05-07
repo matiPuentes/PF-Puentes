@@ -1,0 +1,75 @@
+.GridContac{
+      @media (min-width:1023px){
+        .GridBody{
+             display: grid;
+             grid-template-areas: 
+             "header"
+             "main"
+             "footer";
+             grid-template-columns: 100%;
+             grid-template-rows: auto auto auto;
+             }
+        header{grid-area: header;}
+        main{grid-area: main;}
+        footer{grid-area: footer;}  
+        
+        .MainContact{
+            display: grid;
+            grid-template-areas: 
+            "MainContact__Titl MainContact__Titl"
+            "MainContact__Form MainContact__iframe";
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows:auto;
+            }
+        .MainContact__Titl{grid-area:MainContact__Titl;}
+        .MainContact__Form{grid-area:MainContact__Form;}
+        .MainContact__iframe{grid-area:MainContact__iframe ;}
+            
+
+        .Encabezado {
+             display: flex;
+             flex-direction: row;
+             justify-content:space-between;
+             }    
+        .Pie{
+             display: flex;
+             justify-content: space-between;
+             padding-top: 20px;
+             position: absolute;
+             bottom: 0;
+             width: 99%;
+             color: whitesmoke;
+             }  
+        .MainContact{
+             align-items: center;
+             }
+        
+        
+        .Encabezado__NavI {
+             display: flex;
+             flex-direction: row;
+             }
+        .Encabezado__NavD {
+             display: flex;
+             align-items: center;
+             }  
+        .MainContact__Titl{
+            text-align: center;
+             }      
+        .MainContact__Form{
+             padding-left: 20%;
+             }
+        .Encabezado__NavI--Flex{
+             display: flex;
+             }    
+        .MainContact__Form--Pad{
+             width: 280px; 
+             padding-top: 10px;
+             padding-bottom: 10px;
+             }
+        .MainContact__Form--boton{ 
+             width: 300px;
+             padding: 15px;
+             }
+            }
+}

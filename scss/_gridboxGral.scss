@@ -1,0 +1,43 @@
+.GridNos, .GridContac{
+    :root{
+        --bg-principal:  rgb(146, 143, 143);
+        --txt-dec: rgb(0, 0, 0);
+        --bg-prod: rgba(75, 67, 67, 0.849);
+        }
+    a{  
+        text-decoration: none;color:var(--txt-dec);
+        font-size: 25px;
+        transition: 1s all;
+        padding: 10px;
+        font-family: 'Patua One', cursive;
+        }  
+    h1{
+        font-size: 60px; 
+        font-family: 'Teko', sans-serif;
+        }     
+    h2{
+        font-size: 45px; 
+        font-family: 'Teko', sans-serif;
+        }    
+    ul{
+        list-style-type: none;
+        }
+    p{
+        font-size: 20px;
+        font-family: 'Hind Madurai', sans-serif;
+        }    
+    li{  
+        padding: 10px;
+        }     
+    img{
+        border-radius: 20px;
+        }     
+    Form{
+        color: black;
+        padding: 15px;
+        font-size: 20px;
+        width: 300px;
+        border-radius: 4px;
+        }
+    }     
+    
