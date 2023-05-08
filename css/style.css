@@ -1,3 +1,89 @@
+.boton, .boton-cuenta, .boton-enviar, .boton-verMas {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: black;
+  color: lightgray;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.boton-cuenta {
+  padding: 5px;
+  margin: 5px;
+  height: 45px;
+}
+
+.boton-verMas {
+  background-color: rgb(105, 105, 173);
+  color: black;
+}
+
+.boton-enviar {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.Formulario {
+  max-width: 25em;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: rgba(120, 119, 123, 0.3);
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
+}
+
+header {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.518), rgba(0, 0, 0, 0.45), rgba(131, 131, 131, 0.733), lightgray, white);
+}
+
+footer {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(3deg, rgba(0, 0, 0, 0.6446953782) 0%, rgba(85, 81, 81, 0.6446953782) 50%, rgba(251, 251, 251, 0.8211659664) 100%);
+}
+
+.image-new {
+  border: 0px none rgb(0, 0, 0);
+  border-radius: 18px;
+  box-shadow: 0px 26px 62px 73px rgba(35, 21, 66, 0.28);
+}
+
+.BgNew {
+  background: conic-gradient(from 47deg at 40% 50%, rgb(171, 115, 125) 21deg, rgb(189, 170, 170) 57deg, rgba(141, 132, 161, 0.9) 86deg);
+  background-blend-mode: normal;
+}
+
+.scale {
+  transition: all 1s;
+}
+.scale:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.hover {
+  transition: all 1s;
+}
+.hover:hover {
+  background-color: rgba(39, 37, 37, 0.795);
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.hoverlink {
+  transition: all 1s;
+}
+.hoverlink:hover {
+  font-size: 20px;
+}
+
 .GridNos :root, .GridContac :root {
   --bg-principal: rgb(146, 143, 143);
   --txt-dec: rgb(0, 0, 0);
@@ -291,92 +377,6 @@
   .GridContac .padding {
     padding-bottom: 10px;
   }
-}
-
-.boton, .boton-cuenta, .boton-enviar, .boton-verMas {
-  width: 200px;
-  height: 50px;
-  text-align: center;
-  background-color: black;
-  color: lightgray;
-  border: 1px solid grey;
-  border-radius: 20px;
-  padding: 10px;
-  margin: 10px;
-}
-
-.boton-cuenta {
-  padding: 5px;
-  margin: 5px;
-  height: 45px;
-}
-
-.boton-verMas {
-  background-color: rgb(105, 105, 173);
-  color: black;
-}
-
-.boton-enviar {
-  background-color: white;
-  border: 2px solid black;
-  color: black;
-  padding: 5px;
-  margin: 5px;
-}
-
-.Formulario {
-  max-width: 25em;
-  padding: 50px;
-  margin: 0 auto;
-  background-color: rgba(120, 119, 123, 0.3);
-  font-weight: bold;
-  border-radius: 20px;
-  box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
-}
-
-header {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.518), rgba(0, 0, 0, 0.45), rgba(131, 131, 131, 0.733), lightgray, white);
-}
-
-footer {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(3deg, rgba(0, 0, 0, 0.6446953782) 0%, rgba(85, 81, 81, 0.6446953782) 50%, rgba(251, 251, 251, 0.8211659664) 100%);
-}
-
-.image-new {
-  border: 0px none rgb(0, 0, 0);
-  border-radius: 18px;
-  box-shadow: 0px 26px 62px 73px rgba(35, 21, 66, 0.28);
-}
-
-.BgNew {
-  background: conic-gradient(from 47deg at 40% 50%, rgb(171, 115, 125) 21deg, rgb(189, 170, 170) 57deg, rgba(141, 132, 161, 0.9) 86deg);
-  background-blend-mode: normal;
-}
-
-.scale {
-  transition: all 1s;
-}
-.scale:hover {
-  transform: scale(1.5, 1.5);
-}
-
-.hover {
-  transition: all 1s;
-}
-.hover:hover {
-  background-color: rgba(39, 37, 37, 0.795);
-  color: whitesmoke;
-  padding: 10px;
-  font-size: 20px;
-  border-radius: 20px;
-}
-
-.hoverlink {
-  transition: all 1s;
-}
-.hoverlink:hover {
-  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
