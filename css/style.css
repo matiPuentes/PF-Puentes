@@ -324,6 +324,16 @@
   margin: 5px;
 }
 
+.Formulario {
+  max-width: 25em;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: rgba(120, 119, 123, 0.3);
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
+}
+
 header {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.518), rgba(0, 0, 0, 0.45), rgba(131, 131, 131, 0.733), lightgray, white);
 }
